@@ -1,0 +1,473 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="https://a.mobirise.com/data:," type="image/x-icon">
+  <meta name="description" content="The Montenegrin videogame foundation promotes local game development, supports aspiring developers, and fosters a vibrant gaming community through various initiatives and events.">
+  <title>Main Page</title>
+  <link rel="stylesheet" href="https://r.mobirisesite.com/940203/assets/web/assets/mobirise-icons2/mobirise2.css?rnd=1734784759377">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/940203/assets/bootstrap/css/bootstrap.min.css?rnd=1734784759377">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/940203/assets/bootstrap/css/bootstrap-grid.min.css?rnd=1734784759377">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/940203/assets/bootstrap/css/bootstrap-reboot.min.css?rnd=1734784759377">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/940203/assets/parallax/jarallax.css?rnd=1734784759377">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/940203/assets/dropdown/css/style.css?rnd=1734784759377">
+    <link rel="stylesheet" href="https://r.mobirisesite.com/940203/assets/theme/css/style.css?rnd=1734784759377">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap&display=swap"></noscript>
+  <link rel="stylesheet" href="https://r.mobirisesite.com/940203/assets/css/mbr-additional.css?rnd=1734784759377" type="text/css">
+  
+  
+  
+  
+
+
+<style>
+.navbar-fixed-top {
+  top: auto;
+}
+#mobiriseBanner.container-banner {
+  height: 8rem;
+  opacity: 1;
+  -webkit-animation: 4s linear animationHeight;
+  -moz-animation: 4s linear animationHeight;
+    -o-animation: 4s linear animationHeight;
+       animation: 4s linear animationHeight;
+       transition: all  0.5s;
+}
+#mobiriseBanner.container-banner.container-banner-closing {
+  pointer-events: none;
+  height: 0;
+  opacity: 0;
+  -webkit-animation: 0.5s linear animationClosing;
+  -moz-animation:  0.5s linear animationClosing;
+    -o-animation:  0.5s linear animationClosing;
+       animation:  0.5s linear animationClosing;
+}
+#mobiriseBanner .banner {
+  min-height: 8rem;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 10px;
+  opacity:1;
+  -webkit-animation: 4s linear animationBanner;
+  -moz-animation: 4s linear animationBanner;
+    -o-animation: 4s linear animationBanner;
+       animation: 4s linear animationBanner;
+  z-index: 1031;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#mobiriseBanner .banner p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  animation: none;
+  visibility: visible;
+}
+#mobiriseBanner .buy-license {
+  text-decoration: underline;
+}
+#mobiriseBanner .banner .btn {
+  margin: 0.3rem 0.5rem;
+  animation: none;
+  visibility: visible;
+}
+.navbar.opened {
+    z-index: 1032;
+}
+@-webkit-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 75% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-moz-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 75% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-o-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 75% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+   @keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 75% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-webkit-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 8rem; } }
+@-moz-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 8rem; } }
+@-o-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 8rem; } }
+   @keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 8rem; } }
+   
+@-webkit-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@-moz-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@-o-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+
+@media(max-width: 767px) {
+  #mobiriseBanner.container-banner {
+    height: 12rem;
+  }
+  #mobiriseBanner .banner {
+    min-height: 12rem;
+  }
+  @-webkit-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 75% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-moz-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 75% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-o-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 75% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+    @keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 75% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-webkit-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 12rem; } }
+  @-moz-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 12rem; } }
+  @-o-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 12rem; } }
+    @keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 12rem; } }
+
+  @-webkit-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @-moz-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @-o-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+}
+</style>
+</head>
+<body>
+  
+  <section data-bs-version="5.1" class="menu menu2 cid-uvc638cwQs" once="menu" id="menu01-t">
+	
+
+	<nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+		<div class="container-fluid">
+			<div class="navbar-brand">
+				
+				
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<div class="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				
+				
+				<div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="#">Pridruži se</a> <a class="btn btn-primary display-4" href="#">Pridruži se</a></div>
+			</div>
+		</div>
+	</nav>
+</section>
+
+<section data-bs-version="5.1" class="buildm5 header4 cid-uvc638Xgji mbr-parallax-background" id="header4-u">
+  
+  <div class="mbr-overlay" style="opacity: 0.2; background-color: rgb(0, 0, 0);"></div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="content-wrap col-12 col-md-12">
+        
+        
+
+        <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">The Montenegrin Video Game Foundation</h1>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="buildm5 article2 cid-uvc639nTeh" id="article2-v">
+	
+	
+	
+	<div class="container">
+		<div class="row">
+			<div class="content-wrap col-12 col-md-12">
+				<h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-2">Leveling up Montenegro's Video Game industry</h1>
+				<p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Created in 2023 as a project of the Ministry of Culture and Media, the Video Game Foundation is dedicated to building up a top-tier video game industry in Montenegro by supporting indie developers, integrating video game STEM education into primary and secondary school educational curricula, and advising on national policy related to games.<br></p>
+				
+
+				<div class="col-12">
+					<div class="line">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-bs-version="5.1" class="buildm5 header1 cid-uvc63b3E0G" data-bg-video="https://www.youtube.com/embed/u7kdVe8q5zs?autoplay=1&amp;loop=1&amp;playlist=u7kdVe8q5zs&amp;t=20&amp;mute=1&amp;playsinline=1&amp;controls=0&amp;showinfo=0&amp;autohide=1&amp;allowfullscreen=true&amp;mode=transparent&amp;mute=1" id="header1-y">
+    
+    
+    <div class="mbr-fallback-image disabled"></div>
+    <div class="container">
+      <div class="row">
+        <div class="content-wrap col-12 col-md-10">
+          
+          
+  
+          
+  
+          
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section data-bs-version="5.1" class="buildm5 features2 cid-uvc63asDt1" id="features2-x">
+  
+  
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="mbr-section-subtitle mbr-fonts-style mbr-white mb-4 display-5">Looking to up your game?</h2>
+      </div>
+      <div class="content-wrap col-12 col-md-12">
+        <div class="line"></div>
+        <h2 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
+          <a href="#" class="text-primary">Teachers</a>
+        </h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="content-wrap col-12 col-md-12">
+
+        <h2 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
+          <a href="#" class="text-primary">Students</a>
+        </h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="content-wrap col-12 col-md-12">
+
+        <h2 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
+          <a href="#" class="text-primary">Indie Devs</a>
+        </h2>
+      </div>
+        
+      <div class="col-12">
+        
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="buildm5 features2 cid-uvWLtVMpjy" id="features2-1q">
+  
+  
+  
+  <div class="container">
+    <div class="row">
+    
+      <div class="content-wrap col-12 col-md-12">
+        <div class="line"></div>
+        <h2 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1"><p>
+          <a href="#" class="text-primary">Large Publishers</a></p></h2>
+        <div class="line"></div>
+      </div>
+
+      
+
+      
+        
+      <div class="col-12">
+        
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="buildm5 features6 cid-uvc63bEzwg" id="features6-z">
+  
+  
+  
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-6">
+
+        <h2 class="mbr-section-maintitle mbr-fonts-style mbr-white pb-5 display-2">Supporting l33t skills in Montenegro</h2>
+
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <h3 class="mbr-section-subtitle mbr-fonts-style mbr-white pb-3 display-5">By 2035 the foundation will help catalyze</h3>
+
+
+        <div class="content-wrap">
+          <div class="col-lg-12 my-auto">
+            <h2 class="mbr-section-title m-0 mbr-fonts-style mbr-white display-7">Production of at least one AAA game in Montenegro with at least 3 million sales</h2>
+          </div>
+          <div class="col-12">
+            <div class="line"></div>
+          </div>
+        </div>
+
+        <div class="content-wrap">
+          <div class="col-lg-12 my-auto">
+            <h2 class="mbr-section-title m-0 mbr-fonts-style mbr-white display-7">Education of 5,000 youth through our innovative lesson plans</h2>
+          </div>
+          <div class="col-12">
+            <div class="line"></div>
+          </div>
+        </div>
+
+        <div class="content-wrap">
+          <div class="col-lg-12 my-auto">
+            <h2 class="mbr-section-title m-0 mbr-fonts-style mbr-white display-7">Release of at least 25 indie games from Montenegrin developers</h2>
+          </div>
+          <div class="col-12">
+            <div class="line"></div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="buildm5 team1 cid-uvc63covNk" id="team1-11">
+  
+  
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-12">
+        <div class="row">
+          <div class="col-md-3 col-12">
+            <h2 class="mbr-section-subtitle mbr-fonts-style mbr-white mb-3 display-7">Our team</h2>
+            <div class="col-12">
+              <div class="line"></div>
+            </div>
+          </div>
+
+          <div class="col-md-9 col-12">
+            <h2 class="mbr-section-subtitle mbr-fonts-style mbr-white mb-3 display-7"></h2>
+            <div class="col-12">
+              <div class="line"></div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="img-item">
+              <img class="w-100" src="https://r.mobirisesite.com/940203/assets/images/photo-1679746584014-fb31d4eb0a5e.jpeg" alt="">
+            </div>
+            <h5 class="mbr-fonts-style mt-3 mbr-name display-7">Marko Jovanović</h5>
+            <p class="mbr-role mbr-fonts-style mt-2 display-4">Igrački Dizajner</p>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="img-item">
+              <img class="w-100" src="https://r.mobirisesite.com/940203/assets/images/photo-1589571894960-20bbe2828d0a.jpeg" alt="">
+
+            </div>
+            <h5 class="mbr-fonts-style mt-3 mbr-name display-7">Ana Petrović</h5>
+            <p class="mbr-role mbr-fonts-style mt-2 display-4">Programer Igra</p>
+          </div>
+
+          <div class="col-12 col-lg-3">
+            <div class="img-item">
+              <img class="w-100" src="https://r.mobirisesite.com/940203/assets/images/photo-1626899798511-c3eaacb02846.jpeg" alt="">
+
+            </div>
+            <h5 class="mbr-fonts-style mt-3 mbr-name display-7">Stefan Marković</h5>
+            <p class="mbr-role mbr-fonts-style mt-2 display-4">Umjetnički Direktor</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="buildm5 contact2 cid-uvc63dg6JZ" id="contact2-13">
+    
+
+    
+    
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 mb-0 content-head">
+                <h3 class="mbr-section-title mbr-fonts-style align-center display-2">Get in Touch</h3>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="line">
+                </div>
+            </div>
+            <div class="item features-without-image col-12 col-md-12 col-lg-6">
+                <div class="item-wrapper">
+                    <div class="card-box align-left">
+                        <h5 class="card-title mbr-fonts-style display-7">Address</h5>
+                        <p class="card-text mbr-fonts-style mb-3 display-5">Njegoševa, Cetinje 81250, Montenegro</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-without-image col-12 col-md-12 col-lg-6">
+                <div class="item-wrapper">
+                    <div class="card-box align-left">
+                        <h5 class="card-title mbr-fonts-style display-7">Email</h5>
+                        <p class="card-text mbr-fonts-style mb-3 display-5">
+                          info@videogamefoundation.me
+                          <br>
+                          +382 41 232 570
+                          </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAtXm0x23nRCgazjDV2Kl3GTHRP411ougQ&amp;q=9WRC+CWC, Njegoševa, Cetinje 81250, Montenegro" allowfullscreen=""></iframe></div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="buildm5 footer2 cid-uvc63lsGhf" once="footers" id="footer2-1l">
+
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row flex-row-reverse">
+            <div class="col-12 col-md-5 align-right">
+    
+            </div>
+            <div class="col-12 col-md-7">
+                <div class="row-links">
+                    <ul class="row-links-soc">
+                        
+                        
+                        
+                        
+                    <li class="row-links-soc-item mbr-fonts-style display-7"><a href="#" class="text-white">About Us</a></li><li class="row-links-soc-item mbr-fonts-style display-7"><a href="#" class="text-white">Our Projects</a></li><li class="row-links-soc-item mbr-fonts-style display-7"><a href="#" class="text-white">Ministry of Culture</a></li><li class="row-links-soc-item mbr-fonts-style display-7"><a href="#" class="text-white">Contact Us</a></li><li class="row-links-soc-item mbr-fonts-style display-7"></li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="https://r.mobirisesite.com/940203/assets/web/assets/jquery/jquery.min.js?rnd=1734784759377"></script>
+  <script src="https://r.mobirisesite.com/940203/assets/bootstrap/js/bootstrap.bundle.min.js?rnd=1734784759377"></script>
+  <script src="https://r.mobirisesite.com/940203/assets/parallax/jarallax.js?rnd=1734784759377"></script>
+  <script src="https://r.mobirisesite.com/940203/assets/smoothscroll/smooth-scroll.js?rnd=1734784759377"></script>
+  <script src="https://r.mobirisesite.com/940203/assets/ytplayer/index.js?rnd=1734784759377"></script>
+  <script src="https://r.mobirisesite.com/940203/assets/dropdown/js/navbar-dropdown.js?rnd=1734784759377"></script>
+      <script src="https://r.mobirisesite.com/940203/assets/vimeoplayer/player.js?rnd=1734784759377"></script>
+  <script src="https://r.mobirisesite.com/940203/assets/theme/js/script.js?rnd=1734784759377"></script>
+  
+  
+  
+
+</body>
+</html>
